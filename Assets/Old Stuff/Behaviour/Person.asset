@@ -1,0 +1,5389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9006011236590380855
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Check if Lights Off
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500616
+    y: 501108
+    width: 180
+    height: 72
+  GUID: bYxstU0ux0CraLiyD3ob5g
+  Type: 800
+  Parent: OCd/+eWxlEWGuXPyYrlBPw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 18
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.IsLightOn
+    ShortName: IsLightOn
+    CallSpec: IsLightOn
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.IsLightOn
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 1
+--- !u!114 &-8969935240207683312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move To Light
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501672
+    y: 500568
+    width: 180
+    height: 72
+  GUID: q9PKMOqBB0mWfs0zV9y+ag
+  Type: 600
+  Parent: 72ZfgcGYWkGUVF9D+MhZng
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 46
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 2
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.TargetLoc
+      CallSpec: TargetLoc
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: TargetLoc
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &-8668868476762130903
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Are the Lights On?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501744
+    y: 500940
+    width: 180
+    height: 72
+  GUID: yoa7FEPro0SBMUiFrJ9gAQ
+  Type: 1600
+  Parent: dObRJTcGaEGShc0xU2zS3g
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - 5wY6WBfa8kayx0mNRSibYQ
+  - mjX4CC7nj0WS73WBWeUl0A
+  InternalIndex: 38
+  IsDynamic: 0
+--- !u!114 &-8389434802891455722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1075116281, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Are you Close to the Light?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500364
+    y: 501372
+    width: 180
+    height: 72
+  GUID: Qhy87776NEadjbx0RkwVbQ
+  Type: 1000
+  Parent: PoAIHORJHUK5xhlLrcmzYw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 0
+  CheckType: 4
+  Distance:
+    floatSource: 0
+    constant: 1
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.TargetLoc
+      CallSpec: TargetLoc
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: TargetLoc
+--- !u!114 &-8318524345753327979
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1075116281, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Distance 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499140
+    y: 500448
+    width: 180
+    height: 72
+  GUID: 3HUQtvuTIUGb3oniC6DTzg
+  Type: 1000
+  Parent: h6cY+2AYCUmGdGjy8WdI7Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 80
+  CheckType: 4
+  Distance:
+    floatSource: 0
+    constant: 1
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.RemoteLocation
+      ShortName: RemoteLocation
+      CallSpec: RemoteLocation
+      ReturnValue: UnityEngine.Vector3
+      MenuDescription: (This) instinctai.usr.behaviours.Person.RemoteLocation
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.RemoteLoc
+      CallSpec: RemoteLoc
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: RemoteLoc
+--- !u!114 &-8235177523316826742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 12
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499320
+    y: 500448
+    width: 180
+    height: 72
+  GUID: s3hcdWWaE0aM+E9MsGCGzg
+  Type: 200
+  Parent: h6cY+2AYCUmGdGjy8WdI7Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 81
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.PickUpRemote
+    ShortName: PickUpRemote
+    CallSpec: PickUpRemote
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.PickUpRemote
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-8127149258567070596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is Light On
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500628
+    y: 500040
+    width: 180
+    height: 72
+  GUID: +TlG+0GHtECQevVrHPxZfw
+  Type: 800
+  Parent: jb67uVrtT0aFxaG0Qi8Y0g
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 48
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.IsLightOn
+    ShortName: IsLightOn
+    CallSpec: IsLightOn
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.IsLightOn
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 0
+--- !u!114 &-7843713680609238925
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: if Light On
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498660
+    y: 500340
+    width: 180
+    height: 72
+  GUID: xOvM1YD7oESY92jjW2e9eQ
+  Type: 1600
+  Parent: 9mXBHw/WZkCWKhX1IfrY9Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - YDy7/8rFm0GGpE5T0Pqyxg
+  - qMLeTZKn/Uy5G9hHwjWFTg
+  - eZqTtcSagkOrwj1xdUuJxQ
+  InternalIndex: 74
+  IsDynamic: 0
+--- !u!114 &-7058817497204928102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 8
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501492
+    y: 500568
+    width: 180
+    height: 72
+  GUID: tzptr+7w2kOH78zlxnk6yQ
+  Type: 200
+  Parent: 72ZfgcGYWkGUVF9D+MhZng
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 59
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.FindLight
+    ShortName: FindLight
+    CallSpec: FindLight
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.FindLight
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-6762064148297776605
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 1
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 502248
+    y: 501408
+    width: 180
+    height: 72
+  GUID: Z7sCxffgvEa4N98zCJ2U1w
+  Type: 200
+  Parent: x5B1CZULdECaWBNSqzgoOg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 30
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.PickUpRemote
+    ShortName: PickUpRemote
+    CallSpec: PickUpRemote
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.PickUpRemote
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-6445912601817884810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 454564016, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Wait 1
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498852
+    y: 499944
+    width: 180
+    height: 72
+  GUID: x9v8tD3HxUOqgxpBSRgunA
+  Type: 400
+  Parent: wZ6oIZCINkW4KboxoFFU/Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 22
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  WaitSeconds:
+    floatSource: 0
+    constant: 1
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  IsIndefinite: 0
+  timeMode: 0
+--- !u!114 &-6347242692083192851
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 454564016, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Wait 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501708
+    y: 501408
+    width: 180
+    height: 72
+  GUID: cPHafa94m0Wb7GMtczFcaw
+  Type: 400
+  Parent: x5B1CZULdECaWBNSqzgoOg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 32
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  WaitSeconds:
+    floatSource: 0
+    constant: 1
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  IsIndefinite: 0
+  timeMode: 0
+--- !u!114 &-6018727671828028468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 3
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 502392
+    y: 501228
+    width: 180
+    height: 72
+  GUID: aVDcF9xDMkWqmWzsRzdI2w
+  Type: 200
+  Parent: 5+94WCWg70KnLAv5C5hbzg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 42
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.FindLight
+    ShortName: FindLight
+    CallSpec: FindLight
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.FindLight
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-5979761285039644558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is AC Bad And Light On?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500628
+    y: 499920
+    width: 180
+    height: 72
+  GUID: jb67uVrtT0aFxaG0Qi8Y0g
+  Type: 1600
+  Parent: ql6KLiYhqkywhYbkPcDH0w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - Lx8Q/yQLJ0+B+IlJbT2dVg
+  - +TlG+0GHtECQevVrHPxZfw
+  - sFAr8JQevUSskPSqUnl8yg
+  InternalIndex: 50
+  IsDynamic: 0
+--- !u!114 &-5694376396795126090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Search In Darkness
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501132
+    y: 500292
+    width: 180
+    height: 72
+  GUID: B+QDlEp/z0KwpdevpTvy3w
+  Type: 1600
+  Parent: lez7rP3vEUK/JfJuQwN1HA
+  RandomWeight: 80
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - J8WaYuYBkUWaZxEVaVSDNg
+  - dNHMVGoYC0y5yByyozHzlw
+  InternalIndex: 69
+  IsDynamic: 0
+--- !u!114 &-5533791558833958521
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: If Light Off
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498960
+    y: 500340
+    width: 180
+    height: 72
+  GUID: h6cY+2AYCUmGdGjy8WdI7Q
+  Type: 1600
+  Parent: 9mXBHw/WZkCWKhX1IfrY9Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - qfzKFvp3TkO4Zgk3FNMMxQ
+  - 3HUQtvuTIUGb3oniC6DTzg
+  - s3hcdWWaE0aM+E9MsGCGzg
+  InternalIndex: 75
+  IsDynamic: 0
+--- !u!114 &-5348722066493778017
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: If the AC is Bad
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501660
+    y: 501252
+    width: 180
+    height: 72
+  GUID: LOO7YdMcu02LnV36CRNlhw
+  Type: 800
+  Parent: dH80xFC9wkqSFBW6WpIKfQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 5
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.isACGood
+    ShortName: isACGood
+    CallSpec: isACGood
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.isACGood
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.hasRemote
+    CallSpec: hasRemote
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: hasRemote
+  ConditionIfFalse: 1
+--- !u!114 &-4980702541863503105
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500004
+    y: 501372
+    width: 180
+    height: 72
+  GUID: e86UL2488EWPQTx24VSr9Q
+  Type: 200
+  Parent: PoAIHORJHUK5xhlLrcmzYw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 1
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.FindLight
+    ShortName: FindLight
+    CallSpec: FindLight
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.FindLight
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-4680256726744005347
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Look for Remote
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500916
+    y: 501372
+    width: 180
+    height: 72
+  GUID: mAMX9lvgXkODW3sVjnBbEg
+  Type: 600
+  Parent: eriZREotc0yJ9k/equBSDQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 10
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: eriZREotc0yJ9k/equBSDQ
+  LatchCondition:
+    boolSource: 1
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.hasRemote
+      CallSpec: hasRemote
+      ReturnValue: System.Boolean
+      CollectionType: 
+      ShortName: hasRemote
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 2
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.SearchDir
+      CallSpec: SearchDir
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: SearchDir
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &-4402478044084748822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Pick Up Remote
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501276
+    y: 501372
+    width: 180
+    height: 72
+  GUID: /io1LuaKCk69uuxu13yxbg
+  Type: 200
+  Parent: eriZREotc0yJ9k/equBSDQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 7
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.PickUpRemote
+    ShortName: PickUpRemote
+    CallSpec: PickUpRemote
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.PickUpRemote
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-4347760530394792482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 973358238, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: If Lights Off
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500808
+    y: 501108
+    width: 180
+    height: 72
+  GUID: vLSvDYeGVEinfVIDBgvYWQ
+  Type: 1400
+  Parent: OCd/+eWxlEWGuXPyYrlBPw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - PoAIHORJHUK5xhlLrcmzYw
+  - eriZREotc0yJ9k/equBSDQ
+  InternalIndex: 28
+  Distribution: 1
+  AntiRepeat: 0
+--- !u!114 &-4216928912139159448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is the AC Bad?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500424
+    y: 501108
+    width: 180
+    height: 72
+  GUID: /UVkAVJ0uEW2JgXa72CY9Q
+  Type: 800
+  Parent: OCd/+eWxlEWGuXPyYrlBPw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 26
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.isACGood
+    ShortName: isACGood
+    CallSpec: isACGood
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.isACGood
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.hasRemote
+    CallSpec: hasRemote
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: hasRemote
+  ConditionIfFalse: 1
+--- !u!114 &-3901272421517997280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 3
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498300
+    y: 500436
+    width: 180
+    height: 72
+  GUID: YDy7/8rFm0GGpE5T0Pqyxg
+  Type: 800
+  Parent: xOvM1YD7oESY92jjW2e9eQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 77
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.IsLightOn
+    ShortName: IsLightOn
+    CallSpec: IsLightOn
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.IsLightOn
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 0
+--- !u!114 &-3507070557844838634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1444294134, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is the Light On?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499032
+    y: 500160
+    width: 180
+    height: 72
+  GUID: 9mXBHw/WZkCWKhX1IfrY9Q
+  Type: 1200
+  Parent: 4spJ9nEG30W7ftIH5TuVtA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - xOvM1YD7oESY92jjW2e9eQ
+  - h6cY+2AYCUmGdGjy8WdI7Q
+  InternalIndex: 73
+--- !u!114 &-3473655916179064361
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Change AC
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498672
+    y: 499944
+    width: 180
+    height: 72
+  GUID: eHcynSk/w0CwMBz0l9ucsw
+  Type: 200
+  Parent: wZ6oIZCINkW4KboxoFFU/Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 8
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.ChangeAC
+    ShortName: ChangeAC
+    CallSpec: ChangeAC
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.ChangeAC
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-3079723114383179974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move to Light
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500268
+    y: 500520
+    width: 180
+    height: 72
+  GUID: rJV+ro9N50OUAPoFhlKDkw
+  Type: 600
+  Parent: sGCaPPifXEKaD7Q6igT45A
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 45
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 2
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.TargetLoc
+      CallSpec: TargetLoc
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: TargetLoc
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &-2878867162143666422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Turn On Light
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501636
+    y: 500280
+    width: 180
+    height: 72
+  GUID: 72ZfgcGYWkGUVF9D+MhZng
+  Type: 1600
+  Parent: lez7rP3vEUK/JfJuQwN1HA
+  RandomWeight: 20
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - CymQQ1epx0i8aM/JQdA84A
+  - tzptr+7w2kOH78zlxnk6yQ
+  - q9PKMOqBB0mWfs0zV9y+ag
+  - 94HSDfyAvUehAaZG1jMDFw
+  InternalIndex: 67
+  IsDynamic: 0
+--- !u!114 &-2818776169236918046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Search in Light
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501864
+    y: 501252
+    width: 180
+    height: 72
+  GUID: x5B1CZULdECaWBNSqzgoOg
+  Type: 1600
+  Parent: dH80xFC9wkqSFBW6WpIKfQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - adFqVY03KECVu4YApPE1Uw
+  - cPHafa94m0Wb7GMtczFcaw
+  - kn6ZhWRxIkiXUHZk3SDrtQ
+  - EWiyZX4a8kGRHVVPMMTYEA
+  - Z7sCxffgvEa4N98zCJ2U1w
+  InternalIndex: 6
+  IsDynamic: 0
+--- !u!114 &-2747569073217822851
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -217198319, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500220
+    y: 499680
+    width: 32
+    height: 32
+  GUID: SmULfTxtCEu13YnNWLZyvQ
+  Type: 0
+  Parent: 
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - ql6KLiYhqkywhYbkPcDH0w
+  InternalIndex: 3
+--- !u!114 &-2665350837542666255
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is AC Bad
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500448
+    y: 500040
+    width: 180
+    height: 72
+  GUID: Lx8Q/yQLJ0+B+IlJbT2dVg
+  Type: 800
+  Parent: jb67uVrtT0aFxaG0Qi8Y0g
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 49
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.isACGood
+    ShortName: isACGood
+    CallSpec: isACGood
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.isACGood
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 1
+--- !u!114 &-1357062744839945565
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Turn On Lights
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500280
+    y: 501228
+    width: 180
+    height: 72
+  GUID: PoAIHORJHUK5xhlLrcmzYw
+  Type: 1600
+  Parent: vLSvDYeGVEinfVIDBgvYWQ
+  RandomWeight: 25
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - e86UL2488EWPQTx24VSr9Q
+  - r4tAi6yfuka4CZ/s8AuXHQ
+  - Qhy87776NEadjbx0RkwVbQ
+  - h0URLWHhrkiyhhPTaxqm1Q
+  InternalIndex: 29
+  IsDynamic: 0
+--- !u!114 &-1332520823963325645
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move to Remote
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500628
+    y: 500148
+    width: 180
+    height: 72
+  GUID: 5uCtcnZZpECLND7EOkhkBg
+  Type: 600
+  Parent: sFAr8JQevUSskPSqUnl8yg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 82
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 2
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.SearchDir
+      CallSpec: SearchDir
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: SearchDir
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &-1142370830295656752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 7
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500448
+    y: 500148
+    width: 180
+    height: 72
+  GUID: TtgbUZ2uwUO5SX4RrcVz9Q
+  Type: 200
+  Parent: sFAr8JQevUSskPSqUnl8yg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 66
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.Search
+    ShortName: Search
+    CallSpec: Search
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.Search
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-1066496850518689139
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is AC Good but Light On?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500268
+    y: 500400
+    width: 180
+    height: 72
+  GUID: sGCaPPifXEKaD7Q6igT45A
+  Type: 1600
+  Parent: ql6KLiYhqkywhYbkPcDH0w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - XKK6b/DWxk6TMPo8QvXnDQ
+  - 4ASXcggEckmNqO7Zbs/g6g
+  - 5KeiilQ9y0qgES6fhkoDgA
+  - rJV+ro9N50OUAPoFhlKDkw
+  - kfFZxhZrR0WvvCx1mgVLlQ
+  - RAQVntvo0UuorDHZ5BUGIA
+  InternalIndex: 57
+  IsDynamic: 0
+--- !u!114 &-856385395987333577
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Are the Lights Off?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500688
+    y: 500988
+    width: 180
+    height: 72
+  GUID: OCd/+eWxlEWGuXPyYrlBPw
+  Type: 1600
+  Parent: dObRJTcGaEGShc0xU2zS3g
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - /UVkAVJ0uEW2JgXa72CY9Q
+  - bYxstU0ux0CraLiyD3ob5g
+  - vLSvDYeGVEinfVIDBgvYWQ
+  InternalIndex: 37
+  IsDynamic: 0
+--- !u!114 &-702277462956152067
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move to Direction
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501132
+    y: 500364
+    width: 180
+    height: 72
+  GUID: dNHMVGoYC0y5yByyozHzlw
+  Type: 600
+  Parent: B+QDlEp/z0KwpdevpTvy3w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 71
+  Latch: 0
+  LatchTimeout: 1
+  LatchJumpTarget: lez7rP3vEUK/JfJuQwN1HA
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 2
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.SearchLoc
+      ShortName: SearchLoc
+      CallSpec: SearchLoc
+      ReturnValue: UnityEngine.Vector3
+      MenuDescription: (This) instinctai.usr.behaviours.Person.SearchLoc
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.SearchDir
+      CallSpec: SearchDir
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: SearchDir
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &-241651621028247673
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 5
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500628
+    y: 500520
+    width: 180
+    height: 72
+  GUID: RAQVntvo0UuorDHZ5BUGIA
+  Type: 200
+  Parent: sGCaPPifXEKaD7Q6igT45A
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 44
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.TurnOffLight
+    ShortName: TurnOffLight
+    CallSpec: TurnOffLight
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.TurnOffLight
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 849302148, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Person
+  m_EditorClassIdentifier: 
+  AllNodes:
+  - {fileID: -8389434802891455722}
+  - {fileID: -4980702541863503105}
+  - {fileID: 6995343243538946880}
+  - {fileID: -2747569073217822851}
+  - {fileID: 1987921355138368606}
+  - {fileID: -5348722066493778017}
+  - {fileID: -2818776169236918046}
+  - {fileID: -4402478044084748822}
+  - {fileID: -3473655916179064361}
+  - {fileID: 3059827262046230562}
+  - {fileID: -4680256726744005347}
+  - {fileID: 4297184175868815061}
+  - {fileID: 570949173600269724}
+  - {fileID: 8138388476299333272}
+  - {fileID: 6139484372513235125}
+  - {fileID: 3580738874333034971}
+  - {fileID: 1432160277172873003}
+  - {fileID: 4508266120564682950}
+  - {fileID: -9006011236590380855}
+  - {fileID: 8288970455638829124}
+  - {fileID: 2274638904014192398}
+  - {fileID: 2959579069629335207}
+  - {fileID: -6445912601817884810}
+  - {fileID: 103886275584519127}
+  - {fileID: 8345203804672549030}
+  - {fileID: 5730431072529564076}
+  - {fileID: -4216928912139159448}
+  - {fileID: 2194708721968065994}
+  - {fileID: -4347760530394792482}
+  - {fileID: -1357062744839945565}
+  - {fileID: -6762064148297776605}
+  - {fileID: 2137702616736864804}
+  - {fileID: -6347242692083192851}
+  - {fileID: 6186762885025873782}
+  - {fileID: 2193432831827426356}
+  - {fileID: 6699163323212725929}
+  - {fileID: 2006926069557717710}
+  - {fileID: -856385395987333577}
+  - {fileID: -8668868476762130903}
+  - {fileID: 3442434412012668321}
+  - {fileID: 425317683417709574}
+  - {fileID: 3413456278570233296}
+  - {fileID: -6018727671828028468}
+  - {fileID: 8497440294781130528}
+  - {fileID: -241651621028247673}
+  - {fileID: -3079723114383179974}
+  - {fileID: -8969935240207683312}
+  - {fileID: 9040195431127476575}
+  - {fileID: -8127149258567070596}
+  - {fileID: -2665350837542666255}
+  - {fileID: -5979761285039644558}
+  - {fileID: 1376863600815562157}
+  - {fileID: 3873244781423633422}
+  - {fileID: 7871414907432433166}
+  - {fileID: 183783601142355495}
+  - {fileID: 7340709807070389381}
+  - {fileID: 7755263969014005399}
+  - {fileID: -1066496850518689139}
+  - {fileID: 4597422897455169400}
+  - {fileID: -7058817497204928102}
+  - {fileID: 7757734020528127509}
+  - {fileID: 6922761545906980963}
+  - {fileID: 603860516077086579}
+  - {fileID: 7780105683482324494}
+  - {fileID: 7061308321425384351}
+  - {fileID: 3356192321745011728}
+  - {fileID: -1142370830295656752}
+  - {fileID: -2878867162143666422}
+  - {fileID: 3956771467063616858}
+  - {fileID: -5694376396795126090}
+  - {fileID: 3082015058978501940}
+  - {fileID: -702277462956152067}
+  - {fileID: 5387098082471000529}
+  - {fileID: -3507070557844838634}
+  - {fileID: -7843713680609238925}
+  - {fileID: -5533791558833958521}
+  - {fileID: 5943547117086389212}
+  - {fileID: -3901272421517997280}
+  - {fileID: 2805700527162833515}
+  - {fileID: 315803379290602673}
+  - {fileID: -8318524345753327979}
+  - {fileID: -8235177523316826742}
+  - {fileID: -1332520823963325645}
+  SeparatorPos:
+    serializedVersion: 2
+    x: 1
+    y: 0
+    width: 150
+    height: 100
+  PropsScrollPos: {x: 0, y: 0}
+  ZoomLevel: 0
+  ViewCenter: {x: 498987.4, y: 499329.75}
+  Namespace: 
+  ClassName: 
+  AssetFolder: 
+  BaseClass: 
+  TreeUpdateMode: 0
+  IsSubtreeOnly: 0
+  EnableDebugLogNodes: 1
+  EnableLiveUpdate: 1
+  AddClassNamePrefix: 1
+  RequiresInit: 0
+  GUID: a6ayg9qnp0ybW13ptOoT8A
+  RequiredComponents: []
+  CodeKey: DmDW5Lfbhk6P94u/YBl72g
+  SchemaVersion: 1
+  ___GenerateNodeComments: 0
+  ___GenerateNodeTrace: 0
+--- !u!114 &103886275584519127
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500184
+    y: 501372
+    width: 180
+    height: 72
+  GUID: r4tAi6yfuka4CZ/s8AuXHQ
+  Type: 600
+  Parent: PoAIHORJHUK5xhlLrcmzYw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 23
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 2
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.TargetLoc
+      CallSpec: TargetLoc
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: TargetLoc
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &183783601142355495
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 6
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500088
+    y: 500520
+    width: 180
+    height: 72
+  GUID: 5KeiilQ9y0qgES6fhkoDgA
+  Type: 200
+  Parent: sGCaPPifXEKaD7Q6igT45A
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 54
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.FindLight
+    ShortName: FindLight
+    CallSpec: FindLight
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.FindLight
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &315803379290602673
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 4
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498960
+    y: 500448
+    width: 180
+    height: 72
+  GUID: qfzKFvp3TkO4Zgk3FNMMxQ
+  Type: 800
+  Parent: h6cY+2AYCUmGdGjy8WdI7Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 79
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.IsLightOn
+    ShortName: IsLightOn
+    CallSpec: IsLightOn
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.IsLightOn
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 1
+--- !u!114 &425317683417709574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Are the Lights Off
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499536
+    y: 500316
+    width: 180
+    height: 72
+  GUID: AaVsN0B80USHNsCt2SttCA
+  Type: 800
+  Parent: z38v24aDl0+SvflBqe2HOQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 40
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.IsLightOn
+    ShortName: IsLightOn
+    CallSpec: IsLightOn
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.IsLightOn
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 1
+--- !u!114 &570949173600269724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Turn Off Light
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 502572
+    y: 501120
+    width: 180
+    height: 72
+  GUID: 5+94WCWg70KnLAv5C5hbzg
+  Type: 1600
+  Parent: mjX4CC7nj0WS73WBWeUl0A
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - iJ4wVKTDL0KcPmmCj1HfRA
+  - aVDcF9xDMkWqmWzsRzdI2w
+  - suH7kyg0qkO9070lBcn15w
+  - V5d5mQRfDUiHUlMzPmFrQQ
+  - qq2AkuzLOUGoxnYLM4/RNQ
+  InternalIndex: 12
+  IsDynamic: 0
+--- !u!114 &603860516077086579
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 973358238, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Random
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501468
+    y: 500040
+    width: 180
+    height: 72
+  GUID: lez7rP3vEUK/JfJuQwN1HA
+  Type: 1400
+  Parent: Y8MzcsLXS0qtWocvxyoleg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - B+QDlEp/z0KwpdevpTvy3w
+  - 72ZfgcGYWkGUVF9D+MhZng
+  InternalIndex: 62
+  Distribution: 1
+  AntiRepeat: 0
+--- !u!114 &1376863600815562157
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is AC Bad but Light Off
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501192
+    y: 499920
+    width: 180
+    height: 72
+  GUID: Y8MzcsLXS0qtWocvxyoleg
+  Type: 1600
+  Parent: ql6KLiYhqkywhYbkPcDH0w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - lJ7Tsc3PdUC+AVUYWOgw2w
+  - qJw835dyKEmTt2CRrovD6w
+  - lez7rP3vEUK/JfJuQwN1HA
+  InternalIndex: 51
+  IsDynamic: 0
+--- !u!114 &1432160277172873003
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499896
+    y: 500316
+    width: 180
+    height: 72
+  GUID: VTauNG0iMECOwZMUG5HrxA
+  Type: 200
+  Parent: z38v24aDl0+SvflBqe2HOQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 16
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.FindBed
+    ShortName: FindBed
+    CallSpec: FindBed
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.FindBed
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &1987921355138368606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Are the Lights On?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501660
+    y: 501036
+    width: 180
+    height: 72
+  GUID: 5wY6WBfa8kayx0mNRSibYQ
+  Type: 800
+  Parent: yoa7FEPro0SBMUiFrJ9gAQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 4
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.IsLightOn
+    ShortName: IsLightOn
+    CallSpec: IsLightOn
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.IsLightOn
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.hasRemote
+    CallSpec: hasRemote
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: hasRemote
+  ConditionIfFalse: 0
+--- !u!114 &2006926069557717710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Turn it On!
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500544
+    y: 501372
+    width: 180
+    height: 72
+  GUID: h0URLWHhrkiyhhPTaxqm1Q
+  Type: 200
+  Parent: PoAIHORJHUK5xhlLrcmzYw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 36
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: ql6KLiYhqkywhYbkPcDH0w
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.TurnOnLight
+    ShortName: TurnOnLight
+    CallSpec: TurnOnLight
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.TurnOnLight
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &2137702616736864804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1075116281, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Close to Remote?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 502068
+    y: 501408
+    width: 180
+    height: 72
+  GUID: EWiyZX4a8kGRHVVPMMTYEA
+  Type: 1000
+  Parent: x5B1CZULdECaWBNSqzgoOg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 31
+  CheckType: 4
+  Distance:
+    floatSource: 0
+    constant: 3
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  Position:
+    IsWorld: 1
+    vector3Source: 2
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.RemoteLocation
+      ShortName: RemoteLocation
+      CallSpec: RemoteLocation
+      ReturnValue: UnityEngine.Vector3
+      MenuDescription: (This) instinctai.usr.behaviours.Person.RemoteLocation
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+--- !u!114 &2193432831827426356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Go to Remote
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501888
+    y: 501408
+    width: 180
+    height: 72
+  GUID: kn6ZhWRxIkiXUHZk3SDrtQ
+  Type: 600
+  Parent: x5B1CZULdECaWBNSqzgoOg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 34
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 2
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.RemoteLocation
+      ShortName: RemoteLocation
+      CallSpec: RemoteLocation
+      ReturnValue: UnityEngine.Vector3
+      MenuDescription: (This) instinctai.usr.behaviours.Person.RemoteLocation
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.SearchDir
+      CallSpec: SearchDir
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: SearchDir
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &2194708721968065994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 502212
+    y: 501228
+    width: 180
+    height: 72
+  GUID: iJ4wVKTDL0KcPmmCj1HfRA
+  Type: 800
+  Parent: 5+94WCWg70KnLAv5C5hbzg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 27
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.isACGood
+    ShortName: isACGood
+    CallSpec: isACGood
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.isACGood
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 0
+--- !u!114 &2274638904014192398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 454564016, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498492
+    y: 499944
+    width: 180
+    height: 72
+  GUID: rA6VLTCzZUq4rdq7TN1m8w
+  Type: 400
+  Parent: wZ6oIZCINkW4KboxoFFU/Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 20
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  WaitSeconds:
+    floatSource: 0
+    constant: 1
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  IsIndefinite: 0
+  timeMode: 0
+--- !u!114 &2805700527162833515
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1075116281, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Distance 1
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498480
+    y: 500436
+    width: 180
+    height: 72
+  GUID: qMLeTZKn/Uy5G9hHwjWFTg
+  Type: 1000
+  Parent: xOvM1YD7oESY92jjW2e9eQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 78
+  CheckType: 4
+  Distance:
+    floatSource: 0
+    constant: 3
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.RemoteLoc
+      CallSpec: RemoteLoc
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: RemoteLoc
+--- !u!114 &2959579069629335207
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Throw Remote
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499032
+    y: 499944
+    width: 180
+    height: 72
+  GUID: oAShio1NikyTHn5CjiT2yA
+  Type: 200
+  Parent: wZ6oIZCINkW4KboxoFFU/Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 21
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.ThrowRemote
+    ShortName: ThrowRemote
+    CallSpec: ThrowRemote
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.ThrowRemote
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &3059827262046230562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1075116281, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Close to Remote?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501096
+    y: 501372
+    width: 180
+    height: 72
+  GUID: uBhGUsjna0qI7MH//ldVuw
+  Type: 1000
+  Parent: eriZREotc0yJ9k/equBSDQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 9
+  CheckType: 4
+  Distance:
+    floatSource: 0
+    constant: 1
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  Position:
+    IsWorld: 1
+    vector3Source: 2
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.RemoteLocation
+      ShortName: RemoteLocation
+      CallSpec: RemoteLocation
+      ReturnValue: UnityEngine.Vector3
+      MenuDescription: (This) instinctai.usr.behaviours.Person.RemoteLocation
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.TargetLoc
+      CallSpec: TargetLoc
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: TargetLoc
+--- !u!114 &3082015058978501940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 9
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500952
+    y: 500364
+    width: 180
+    height: 72
+  GUID: J8WaYuYBkUWaZxEVaVSDNg
+  Type: 200
+  Parent: B+QDlEp/z0KwpdevpTvy3w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 70
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.Search
+    ShortName: Search
+    CallSpec: Search
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.Search
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &3356192321745011728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is the AC Good?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498852
+    y: 500160
+    width: 180
+    height: 72
+  GUID: d6eAiGqBwU6OoMVGlAB6YQ
+  Type: 800
+  Parent: 4spJ9nEG30W7ftIH5TuVtA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 65
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.isACGood
+    ShortName: isACGood
+    CallSpec: isACGood
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.isACGood
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 1
+--- !u!114 &3413456278570233296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is AC Right?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499356
+    y: 500316
+    width: 180
+    height: 72
+  GUID: r0d4/H8L40WAPVOI/sjKnQ
+  Type: 800
+  Parent: z38v24aDl0+SvflBqe2HOQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 41
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.isACGood
+    ShortName: isACGood
+    CallSpec: isACGood
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.isACGood
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.isUpset
+    CallSpec: isUpset
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: isUpset
+  ConditionIfFalse: 0
+--- !u!114 &3442434412012668321
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1444294134, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: If Lights Off / On
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501264
+    y: 500868
+    width: 180
+    height: 72
+  GUID: dObRJTcGaEGShc0xU2zS3g
+  Type: 1200
+  Parent: FR/XTkKjnUyJielKHhsgSQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - OCd/+eWxlEWGuXPyYrlBPw
+  - yoa7FEPro0SBMUiFrJ9gAQ
+  InternalIndex: 39
+--- !u!114 &3580738874333034971
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 1
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499716
+    y: 500316
+    width: 180
+    height: 72
+  GUID: h363aopSC0GSGhk9cGCxHQ
+  Type: 800
+  Parent: z38v24aDl0+SvflBqe2HOQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 15
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.AreYouInBed
+    ShortName: AreYouInBed
+    CallSpec: AreYouInBed
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.AreYouInBed
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.hasRemote
+    CallSpec: hasRemote
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: hasRemote
+  ConditionIfFalse: 1
+--- !u!114 &3873244781423633422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is Light Off?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501288
+    y: 500040
+    width: 180
+    height: 72
+  GUID: qJw835dyKEmTt2CRrovD6w
+  Type: 800
+  Parent: Y8MzcsLXS0qtWocvxyoleg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 52
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.IsLightOn
+    ShortName: IsLightOn
+    CallSpec: IsLightOn
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.IsLightOn
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 1
+--- !u!114 &3956771467063616858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Do you want the Remote?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499200
+    y: 500064
+    width: 180
+    height: 72
+  GUID: 4spJ9nEG30W7ftIH5TuVtA
+  Type: 1600
+  Parent: ql6KLiYhqkywhYbkPcDH0w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - d6eAiGqBwU6OoMVGlAB6YQ
+  - 9mXBHw/WZkCWKhX1IfrY9Q
+  InternalIndex: 68
+  IsDynamic: 0
+--- !u!114 &4297184175868815061
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Choose Direction
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500736
+    y: 501372
+    width: 180
+    height: 72
+  GUID: zVVDQW81i0OoFlhCsMf5QA
+  Type: 200
+  Parent: eriZREotc0yJ9k/equBSDQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 11
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.Search
+    ShortName: Search
+    CallSpec: Search
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.Search
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &4508266120564682950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 502572
+    y: 501228
+    width: 180
+    height: 72
+  GUID: suH7kyg0qkO9070lBcn15w
+  Type: 600
+  Parent: 5+94WCWg70KnLAv5C5hbzg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 17
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 2
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.RemoteLocation
+      ShortName: RemoteLocation
+      CallSpec: RemoteLocation
+      ReturnValue: UnityEngine.Vector3
+      MenuDescription: (This) instinctai.usr.behaviours.Person.RemoteLocation
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.TargetLoc
+      CallSpec: TargetLoc
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: TargetLoc
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &4597422897455169400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 454564016, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Wait 3
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501312
+    y: 500568
+    width: 180
+    height: 72
+  GUID: CymQQ1epx0i8aM/JQdA84A
+  Type: 400
+  Parent: 72ZfgcGYWkGUVF9D+MhZng
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 58
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  WaitSeconds:
+    floatSource: 0
+    constant: 1
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  IsIndefinite: 0
+  timeMode: 0
+--- !u!114 &5387098082471000529
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Should you go to Bed?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499908
+    y: 500136
+    width: 180
+    height: 72
+  GUID: z38v24aDl0+SvflBqe2HOQ
+  Type: 1600
+  Parent: ql6KLiYhqkywhYbkPcDH0w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - r0d4/H8L40WAPVOI/sjKnQ
+  - AaVsN0B80USHNsCt2SttCA
+  - h363aopSC0GSGhk9cGCxHQ
+  - VTauNG0iMECOwZMUG5HrxA
+  - PsTKEeDmBUmSigEkOAoiKg
+  InternalIndex: 72
+  IsDynamic: 0
+--- !u!114 &5730431072529564076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is AC Good?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501744
+    y: 501144
+    width: 180
+    height: 72
+  GUID: dH80xFC9wkqSFBW6WpIKfQ
+  Type: 1600
+  Parent: mjX4CC7nj0WS73WBWeUl0A
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - LOO7YdMcu02LnV36CRNlhw
+  - x5B1CZULdECaWBNSqzgoOg
+  InternalIndex: 25
+  IsDynamic: 0
+--- !u!114 &5943547117086389212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 10
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498660
+    y: 500436
+    width: 180
+    height: 72
+  GUID: eZqTtcSagkOrwj1xdUuJxQ
+  Type: 200
+  Parent: xOvM1YD7oESY92jjW2e9eQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 76
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.PickUpRemote
+    ShortName: PickUpRemote
+    CallSpec: PickUpRemote
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.PickUpRemote
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &6139484372513235125
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 4
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 502932
+    y: 501228
+    width: 180
+    height: 72
+  GUID: qq2AkuzLOUGoxnYLM4/RNQ
+  Type: 200
+  Parent: 5+94WCWg70KnLAv5C5hbzg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 14
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.TurnOffLight
+    ShortName: TurnOffLight
+    CallSpec: TurnOffLight
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.TurnOffLight
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &6186762885025873782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Find Remote
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501528
+    y: 501408
+    width: 180
+    height: 72
+  GUID: adFqVY03KECVu4YApPE1Uw
+  Type: 200
+  Parent: x5B1CZULdECaWBNSqzgoOg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 33
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.FindRemote
+    ShortName: FindRemote
+    CallSpec: FindRemote
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.FindRemote
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &6699163323212725929
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Search In Dark
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501060
+    y: 501228
+    width: 180
+    height: 72
+  GUID: eriZREotc0yJ9k/equBSDQ
+  Type: 1600
+  Parent: vLSvDYeGVEinfVIDBgvYWQ
+  RandomWeight: 75
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - zVVDQW81i0OoFlhCsMf5QA
+  - mAMX9lvgXkODW3sVjnBbEg
+  - uBhGUsjna0qI7MH//ldVuw
+  - /io1LuaKCk69uuxu13yxbg
+  InternalIndex: 35
+  IsDynamic: 0
+--- !u!114 &6922761545906980963
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 11
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501780
+    y: 499920
+    width: 180
+    height: 72
+  GUID: vX+xe+/yvkCOgQc/x0fyBw
+  Type: 200
+  Parent: ql6KLiYhqkywhYbkPcDH0w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 61
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.LightRemotePos
+    ShortName: LightRemotePos
+    CallSpec: LightRemotePos
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.LightRemotePos
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &6995343243538946880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1444294134, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Person Brain
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500148
+    y: 499776
+    width: 180
+    height: 72
+  GUID: ql6KLiYhqkywhYbkPcDH0w
+  Type: 1200
+  Parent: SmULfTxtCEu13YnNWLZyvQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - wZ6oIZCINkW4KboxoFFU/Q
+  - 4spJ9nEG30W7ftIH5TuVtA
+  - z38v24aDl0+SvflBqe2HOQ
+  - sGCaPPifXEKaD7Q6igT45A
+  - jb67uVrtT0aFxaG0Qi8Y0g
+  - Y8MzcsLXS0qtWocvxyoleg
+  - vX+xe+/yvkCOgQc/x0fyBw
+  InternalIndex: 2
+--- !u!114 &7061308321425384351
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Do you have the remote?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498720
+    y: 499824
+    width: 180
+    height: 72
+  GUID: wZ6oIZCINkW4KboxoFFU/Q
+  Type: 1600
+  Parent: ql6KLiYhqkywhYbkPcDH0w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - N1GCmNxIrkW/RM44seryVQ
+  - rA6VLTCzZUq4rdq7TN1m8w
+  - eHcynSk/w0CwMBz0l9ucsw
+  - x9v8tD3HxUOqgxpBSRgunA
+  - oAShio1NikyTHn5CjiT2yA
+  InternalIndex: 64
+  IsDynamic: 0
+--- !u!114 &7340709807070389381
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: But Light On
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499908
+    y: 500520
+    width: 180
+    height: 72
+  GUID: 4ASXcggEckmNqO7Zbs/g6g
+  Type: 800
+  Parent: sGCaPPifXEKaD7Q6igT45A
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 55
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.IsLightOn
+    ShortName: IsLightOn
+    CallSpec: IsLightOn
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.IsLightOn
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 0
+--- !u!114 &7755263969014005399
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is Ac Good?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499728
+    y: 500520
+    width: 180
+    height: 72
+  GUID: XKK6b/DWxk6TMPo8QvXnDQ
+  Type: 800
+  Parent: sGCaPPifXEKaD7Q6igT45A
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 56
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.isACGood
+    ShortName: isACGood
+    CallSpec: isACGood
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.isACGood
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.hasRemote
+    CallSpec: hasRemote
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: hasRemote
+  ConditionIfFalse: 0
+--- !u!114 &7757734020528127509
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Find Remote
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500808
+    y: 500040
+    width: 180
+    height: 72
+  GUID: sFAr8JQevUSskPSqUnl8yg
+  Type: 1600
+  Parent: jb67uVrtT0aFxaG0Qi8Y0g
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - TtgbUZ2uwUO5SX4RrcVz9Q
+  - 5uCtcnZZpECLND7EOkhkBg
+  InternalIndex: 60
+  IsDynamic: 0
+--- !u!114 &7780105683482324494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move 1
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500076
+    y: 500316
+    width: 180
+    height: 72
+  GUID: PsTKEeDmBUmSigEkOAoiKg
+  Type: 600
+  Parent: z38v24aDl0+SvflBqe2HOQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 63
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 2
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.TargetLoc
+      CallSpec: TargetLoc
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: TargetLoc
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &7871414907432433166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is AC Bad?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501108
+    y: 500040
+    width: 180
+    height: 72
+  GUID: lJ7Tsc3PdUC+AVUYWOgw2w
+  Type: 800
+  Parent: Y8MzcsLXS0qtWocvxyoleg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 53
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.isACGood
+    ShortName: isACGood
+    CallSpec: isACGood
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Person.isACGood
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 1
+--- !u!114 &8138388476299333272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1075116281, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Distance
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 502752
+    y: 501228
+    width: 180
+    height: 72
+  GUID: V5d5mQRfDUiHUlMzPmFrQQ
+  Type: 1000
+  Parent: 5+94WCWg70KnLAv5C5hbzg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 13
+  CheckType: 4
+  Distance:
+    floatSource: 0
+    constant: 0.5
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.TargetLoc
+      CallSpec: TargetLoc
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: TargetLoc
+--- !u!114 &8288970455638829124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498312
+    y: 499944
+    width: 180
+    height: 72
+  GUID: N1GCmNxIrkW/RM44seryVQ
+  Type: 800
+  Parent: wZ6oIZCINkW4KboxoFFU/Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 19
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.hasRemote
+    CallSpec: hasRemote
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: hasRemote
+  ConditionIfFalse: 0
+--- !u!114 &8345203804672549030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1444294134, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Is Temp Good?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 502104
+    y: 501048
+    width: 180
+    height: 72
+  GUID: mjX4CC7nj0WS73WBWeUl0A
+  Type: 1200
+  Parent: yoa7FEPro0SBMUiFrJ9gAQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - dH80xFC9wkqSFBW6WpIKfQ
+  - 5+94WCWg70KnLAv5C5hbzg
+  InternalIndex: 24
+--- !u!114 &8497440294781130528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1075116281, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: If Close to Light
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500448
+    y: 500520
+    width: 180
+    height: 72
+  GUID: kfFZxhZrR0WvvCx1mgVLlQ
+  Type: 1000
+  Parent: sGCaPPifXEKaD7Q6igT45A
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 43
+  CheckType: 4
+  Distance:
+    floatSource: 0
+    constant: 1
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Person.LightLoc
+      CallSpec: LightLoc
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: LightLoc
+--- !u!114 &9040195431127476575
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Turn On Light
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501852
+    y: 500568
+    width: 180
+    height: 72
+  GUID: 94HSDfyAvUehAaZG1jMDFw
+  Type: 200
+  Parent: 72ZfgcGYWkGUVF9D+MhZng
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 47
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Person.TurnOnLight
+    ShortName: TurnOnLight
+    CallSpec: TurnOnLight
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Person.TurnOnLight
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
