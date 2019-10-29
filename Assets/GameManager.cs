@@ -97,7 +97,7 @@ public class GameManager : MonoBehaviour
 
     public void Inputs()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Return))
         {
             if(GameStart == true)
             {
@@ -212,7 +212,7 @@ public class GameManager : MonoBehaviour
         GameText.text = ("Taking Candy from Babies");
         GameDesc1.text = ("Keep the kids happy by keeping your candy bins full!");
         GameDesc2.text = "Get candy back by scaring kids, but try not to traumatize too many of them!";
-        ControlsText.text = ("WASD to Move Judas the Cat. Press Space to scare the Kids (and to start the game)!");
+        ControlsText.text = ("WASD to Move Judas the Cat. Press Space to scare the Kids. Press Enter to Start the Game!");
     }
 
     public void GameOverFunc()
@@ -225,7 +225,7 @@ public class GameManager : MonoBehaviour
         }
         finalScore = score;
         GameText.text = "Game Over";
-        ControlsText.text = "Press Space to Restart";
+        ControlsText.text = "Press Enter to Restart";
         if (terrorBarNumb > 99)
         {
             GameDesc1.text = "You got shut down for scaring too many kids!";
@@ -276,6 +276,7 @@ public class GameManager : MonoBehaviour
         //for (int i = 0; i < SPcandy.Length; i++)
         //{
         //    Destroy(SPcandy[i]);
+        //}
         //}
         //tempTotalAnger = 0;
         //totalTerror = 0;

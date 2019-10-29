@@ -175,7 +175,10 @@ namespace instinctai.usr.behaviours
 
             if (trig.gameObject.tag == "Judas")
             {
-                JudasSpeak();
+                if (!scared)
+                {
+                    JudasSpeak();
+                }
             }
 
             if (trig.gameObject.tag == "ScareZone")
@@ -192,7 +195,7 @@ namespace instinctai.usr.behaviours
                 {
                     anger *= 2;
                 }
-                int j = Random.Range(1, 4);
+                int j = Random.Range(1, 6);
                 if (j == 1)
                 {
                     SpecificSpeech("AHHHH!", 240);
@@ -204,6 +207,14 @@ namespace instinctai.usr.behaviours
                 if (j == 3)
                 {
                     SpecificSpeech("Too spooky for me!", 240);
+                }
+                if (j == 4)
+                {
+                    SpecificSpeech("RUN!!!!!!!", 240);
+                }
+                if (j == 5)
+                {
+                    SpecificSpeech("What the hell was that!", 240);
                 }
             }
         }
